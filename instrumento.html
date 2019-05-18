@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Instrumentos</title>
+  </head>
+
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <div>
+        <h1>Contra Baixo</h1>
+        <p>o contra baixo,e um dos instrumentos mais importantes quando o assunto e rock,
+          com ela podemos ter aquele som mais relaxante, no caso do rock progressivo ou
+          alternatico. Podemos ver esse belo instrumento atuando com sua perfeição, na musica Money do Pink Floyd, vemos abaixo:</p>
+          <audio src="Slash - Solo Tema Poderoso Chefão (Godfather theme).mp3"></audio>
+          <button id="solo" type="button" name="button">Baixo no rock Progerresivo</button>
+    </div>
+      <p></p>
+  </main>
+
+  <script>
+    /*AUDIO*/
+      let botao=document.querySelector('#solo');
+      botao.addEventListener('click',function(){
+        let audio=document.querySelector('audio');
+        audio.currentTime=10
+        audio.controls;
+        audio.play();
+      });
+      /*curso#*/
+    </script>
+  </body>
+
+</html>
