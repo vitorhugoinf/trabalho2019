@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
 li{
   style-list:none;
   display: inline-block;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+ul{
+  text-align: center;
+}
+header>h1{
+  font-family: 'Baloo Bhai', cursive;
+  text-align: center;
+}
+.contra-baixo{
+    text-align: justify;
 }
