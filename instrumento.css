@@ -16,3 +16,10 @@ header>h1{
 .contra-baixo{
     text-align: justify;
 }
+.master{
+	width:400px;
+}
+.icon{
+	width: 64px;
+	height: 64px;
+}
