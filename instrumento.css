@@ -18,6 +18,9 @@ header>h1{
 }
 .master{
 	width:400px;
+  float: left;
+  clear: left;
+  border-radius: 100px;
 }
 .icon{
 	width: 64px;
