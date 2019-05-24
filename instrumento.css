@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+body{
+  background-color:#D3D3D3;
+}
+
 li{
   style-list:none;
   display: inline-block;
   padding: 10px;
   position: relative;
   text-align: center;
+
+
+
 }
 ul{
   text-align: center;
+  background-color:#696969;
+
 }
 header>h1{
   font-family: 'Baloo Bhai', cursive;
   text-align: center;
+  color:white;
 }
 .contra-baixo{
     text-align: justify;
@@ -23,4 +33,11 @@ header>h1{
 .icon{
 	width: 64px;
 	height: 64px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+header{
+    background-color:#6b0100;
 }
