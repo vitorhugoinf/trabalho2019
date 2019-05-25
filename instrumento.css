@@ -2,21 +2,17 @@
 body{
   background-color:#D3D3D3;
 }
-
 li{
   style-list:none;
   display: inline-block;
   padding: 10px;
   position: relative;
   text-align: center;
-
-
-
+  color:white;
 }
 ul{
   text-align: center;
   background-color:#696969;
-
 }
 header>h1{
   font-family: 'Baloo Bhai', cursive;
@@ -36,6 +32,8 @@ header>h1{
 }
 a{
   text-decoration: none;
+}
+li>a{
   color: white;
 }
 header{
