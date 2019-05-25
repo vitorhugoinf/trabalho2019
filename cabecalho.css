@@ -20,7 +20,9 @@ header>h1{
 }
 a{
   text-decoration: none;
-  color: white;
+}
+header>a{
+    color: white;
 }
 header{
     background-color:#6b0100;
