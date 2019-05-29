@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+}
+#voltar {
+  animation: live-streaming-pulse 0.7s infinite;
+  text-transform: uppercase;
+}
+body,h1 {
+margin: 0 ;
+margin-top: 0;
+}
+
+body {
+  background-color:#D3D3D3;
+  text-align: justify;
+}
+
+header>h1 {
+  font-family: 'Baloo Bhai', cursive;
+  text-align: center;
+  color:white;
+}
+
+ul {
+  text-align: center;
+  background-color:#696969;
+}
+
+li {
+  style-list:none;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li>a {
+    color: white;
+}
+
+header {
+    background-color:#6b0100;
+}
+
+p {
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+
+ h2 {
+   padding-left: 5px;
+   padding-right: 5px;
+ }
+
+img {
+  padding: 50px; 
+}
