@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap');
 }
 #voltar {
   animation: live-streaming-pulse 0.7s infinite;
@@ -15,9 +15,10 @@ body {
 }
 
 header>h1 {
-  font-family: 'Baloo Bhai', cursive;
+    font-family: 'Shojumaru', cursive;
   text-align: center;
   color:white;
+  font-size: 45px;  
 }
 
 ul {
@@ -57,10 +58,17 @@ h1 {
  }
 
  h2 {
+  font-family: 'Shojumaru', cursive;
    padding-left: 5px;
    padding-right: 5px;
  }
 
-img {
-  padding: 50px; 
+h3{
+font-family:cursive;  
+}
+
+img{
+  border:5px solid #6b0100;
+     width: 400px;
+    border-radius: 20px;
 }
