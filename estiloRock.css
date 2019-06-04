@@ -4,16 +4,20 @@ margin:0 auto;
 border:0;
 
 }
-
+h1{
+font-family: 'Shojumaru', cursive;
+}
 h2{
 font-family: 'Shojumaru', cursive;
 }
 h3{
-font-family:cursive;	
+font-family:cursive;
+
 }
 img{
   border:10px solid #6b0100;
      width: 400px;
+     height: 300px;
     border-radius: 20px;
       display: inline-block;
   text-align: center;
