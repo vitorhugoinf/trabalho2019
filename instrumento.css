@@ -19,6 +19,7 @@ img{
   border:5px solid #6b0100;
      width: 400px;
     border-radius: 20px;
+
 }
 ul {
   text-align: center;
@@ -53,5 +54,10 @@ h1{
 font-family: 'Shojumaru', cursive; // BATERIA!!!
 }
 h2{
-font-family:cursive;  
+font-family:cursive; 
+text-align: justify;
+
+}
+p{
+  text-align: justify;
 }

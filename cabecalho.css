@@ -7,11 +7,7 @@ body{
   background-color:#D3D3D3;
   text-align: justify;
 }
-img{
-  border:10px solid #6b0100;
-     width: 400px;
-    border-radius: 20px;
-}
+
 li{
   style-list:none;
   display: inline-block;
@@ -29,6 +25,8 @@ header>h1{
   text-align: center;
   color:white;
   font-size: 45px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 a{
   text-decoration: none;
