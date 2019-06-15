@@ -51,13 +51,52 @@ header {
 	height: 64px;
 }
 h1{
-font-family: 'Shojumaru', cursive; // BATERIA!!!
+font-family: 'Shojumaru', cursive;
+text-align: center;
 }
 h2{
-font-family:cursive; 
+font-family:cursive;
 text-align: justify;
+padding-left: 1em;
 
 }
 p{
   text-align: justify;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+.master{
+  position: relative;
+  left: 6em;
+}
+.es{
+  position: relative;
+    left: 24em;
+}
+#pos{
+  position: relative;
+    left: 24em;
+}
+.di{
+  position: relative;
+  left: 6em;
+}
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
