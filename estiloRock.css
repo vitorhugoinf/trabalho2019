@@ -4,21 +4,25 @@ margin:0 auto;
 border:0;
 
 }
+body{
+
+   text-align: justify;
+}
 h1{
 font-family: 'Shojumaru', cursive;
- text-align:center;
+   text-align:justify;
   margin-right: 100px;
   margin-left: 100px;
 }
 h2{
 font-family: 'Shojumaru', cursive;
- text-align:center;
+  text-align:justify;
   margin-right: 100px;
   margin-left: 100px;
 }
 h3{
 font-family:cursive;
- text-align:center;
+   text-align:justify;
   margin-right: 100px;
   margin-left: 100px;
 
@@ -31,7 +35,7 @@ img{
  display: block;
      margin-left: auto;
     margin-right: auto;
-  text-align: center;
+   text-align:justify;
 
 
 }
@@ -40,16 +44,16 @@ li{
   display: inline-block;
   padding: 10px;
   position: relative;
-  text-align: center;
+    text-align:justify;
 }
 ul{
-  text-align: center;
+   text-align:justify;
   background-color:#696969;
 
 }
 header>h1{
   font-family: 'Shojumaru', cursive;
-  text-align: center;
+    text-align:justify;
   color:white;
   font-size: 45px;
 }
@@ -65,7 +69,7 @@ header{
 p{
 font-size: 17px;
   display: inline-block;
-  text-align:center;
+  text-align:justify;
   margin-right: 100px;
   margin-left: 100px;
 
@@ -84,4 +88,25 @@ main div {
  margin: 0 auto;
   padding: 15px;
   margin: 5px auto;
+}
+footer{
+  margin: 0 auto;
+  border:0;
+  background-color: #6b0100;
+}
+#meclica{
+
+  background-color: #6b0100;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+ border-radius: 20px;
+ border-color:#6b0100;
+
+}
+
+#botao{
+   padding-top: 10px; 
+    text-align: center;
 }

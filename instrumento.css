@@ -8,7 +8,7 @@ body{
 }
 header>h1 {
   font-family: 'Shojumaru', cursive;
-  text-align: center;
+   text-align: justify;
   color:white;
   font-size: 45px;
 }
@@ -22,7 +22,7 @@ img{
 
 }
 ul {
-  text-align: center;
+  text-align: justify;
   background-color:#696969;
 }
 
@@ -31,7 +31,7 @@ li {
   display: inline-block;
   padding: 10px;
   position: relative;
-  text-align: center;
+  text-align: justify;
 }
 
 a {
@@ -52,13 +52,15 @@ header {
 }
 h1{
 font-family: 'Shojumaru', cursive;
-text-align: center;
+ text-align: justify;
+ padding-left: 3em;
+  padding-right: 3em;
 }
 h2{
 font-family:cursive;
-text-align: justify;
-padding-left: 1em;
-
+ text-align: justify;
+padding-left: 3em;
+ padding-right: 3em;
 }
 p{
   text-align: justify;
@@ -100,3 +102,5 @@ p{
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
+
+
