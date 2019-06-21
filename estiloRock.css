@@ -94,19 +94,3 @@ footer{
   border:0;
   background-color: #6b0100;
 }
-#meclica{
-
-  background-color: #6b0100;
-  color: white;
-  text-align: center;
-  font-family: cursive;
-  font-size: 15px;
- border-radius: 20px;
- border-color:#6b0100;
-
-}
-
-#botao{
-   padding-top: 10px; 
-    text-align: center;
-}
