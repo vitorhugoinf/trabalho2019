@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap');
+body,img,h2,article{
+margin:0 auto;
+border:0;
+  margin-top: 0;
+  overflow-x:hidden; 
+  
+  
+}
+body{
+
+   text-align: justify;
+}
+h1{
+font-family: 'Shojumaru', cursive;
+   text-align:justify;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+h2{
+font-family: 'Shojumaru', cursive;
+  text-align:justify;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+h3{
+font-family:cursive;
+   text-align:justify;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+img{
+  border:10px solid #6b0100;
+     width: 400px;
+     height: 300px;
+    border-radius: 20px;
+ display: block;
+     margin-left: auto;
+    margin-right: auto;
+   text-align:justify;
+
+
+}
+li{
+  style-list:none;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+    text-align:justify;
+}
+ul{
+  text-align: center;
+  position: relative;
+  top: 7em;
+  
+
+}
+header>h1{
+  font-family: 'Shojumaru', cursive;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: 2em;
+}
+a{
+  text-decoration: none;
+}
+li>a{
+    color: white;
+}
+p{
+font-size: 17px;
+  display: inline-block;
+  text-align:justify;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+footer{
+	background-color: #778899;
+
+}
+main {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+main div {
+  
+ margin: 0 auto;
+  padding: 15px;
+  margin: 5px auto;
+}
+footer{
+  margin: 0 auto;
+  border:0;
+  background-color: #6b0100;
+}
+.gui{
+  background-image: url(imagens/triangulo.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30em;
+  width: 110%;
+  position: relative;
+  left: -2em;
+
+}
+
+.gui>h2{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    top: 1em;
+    
+}
+.the{
+  background-image: url(imagens/bitos.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35em;
+  width: 110%;
+  position: relative;
+  left: -2em;
+
+}
+.the>h2{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    top: 1em;
+    
+}
+.queen{
+  background-image: url(imagens/Queen-1.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35em;
+  width: 110%;
+  position: relative;
+  left: -2em;
+
+}
+
+.queen>h2{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    top: 1em;
+    
+}
+.metal{
+  background-image: url(imagens/Metallica.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30em;
+  width: 110%;
+  position: relative;
+  left: -2em;
+}
+.metal>h2{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    top: 1em;
+    
+}
+.legiao{
+  background-image: url(imagens/l.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30em;
+  width: 110%;
+  position: relative;
+  left: -2em;
+}
+.legiao>h2{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    top: 1em;
+    
+}
+.cpn{
+  background-image: url(imagens/cpn.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40em;
+  width: 110%;
+  position: relative;
+  left: -2em;
+}
+.cpn>h2{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    
+    top: 1em;
+    
+}
+.topo{
+  background-image: url(imagens/body.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30em;
+  width: auto;
+  top: -3em;
+  position: relative;
+}

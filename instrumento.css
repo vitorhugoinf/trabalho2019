@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap');
+body,h1{
+margin: 0 ;
+margin-top: 0;
+overflow-x:hidden; 
+}
+body{
+  background-color:#D3D3D3;
+}
+header>h1 {
+  font-family: 'Shojumaru', cursive;
+   text-align:center;
+  color:white;
+  font-size: 45px;
+  position: relative;
+    top: 2em;
+}
+.contra-baixo{
+    text-align: justify;
+}
+img{
+  border:5px solid #6b0100;
+     width: 400px;
+    border-radius: 20px;
+
+}
+ul {
+  text-align:center;
+  position: relative;
+    top: 7em;
+  
+}
+
+li {
+  style-list:none;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+li>a {
+    color: white;
+}
+
+header {
+    
+}
+
+.icon{
+	width: 64px;
+	height: 64px;
+}
+h1{
+font-family: 'Shojumaru', cursive;
+ text-align: justify;
+ padding-left: 3em;
+  padding-right: 3em;
+  
+}
+h2{
+font-family:cursive;
+ text-align: justify;
+padding-left: 3em;
+ padding-right: 3em;
+}
+p{
+  text-align: justify;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+.master{
+  position: relative;
+  left: 6em;
+}
+.es{
+  position: relative;
+    left: 24em;
+}
+#pos{
+  position: relative;
+    left: 24em;
+}
+.di{
+  position: relative;
+  left: 6em;
+}
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+.topo{
+    background-image: url(imagens/instru.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20em;
+    width: auto;
+}
+.gui{
+  background-image: url(imagens/guitarra-fundo.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30em;
+  width: auto;
+}
+.gui>h1{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    top: 1em;
+    left: 4em;
+}
+.batera{
+  background-image: url(imagens/bateria.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30em;
+  width: auto;
+}
+.batera>h1{
+  color: aliceblue;
+    font-family: 'Shojumaru', cursive;
+    /* text-align: justify; */
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    top: 1em;
+    left: 4em;
+}
+
