@@ -109,19 +109,19 @@ p{
   transform: translate3d(0px, 0px, 0px);
 }
 .topo{
-    background-image: url(imagens/instru.jpg);
+    background-image: url(imagens/instru.png);
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     background-attachment: fixed;
-    height: 20em;
+    height: 30em;
     width: auto;
 }
 .gui{
   background-image: url(imagens/guitarra-fundo.jpg);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   background-attachment: fixed;
   height: 30em;
   width: auto;
@@ -142,10 +142,12 @@ p{
   background-image: url(imagens/bateria.jpg);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   background-attachment: fixed;
   height: 30em;
-  width: auto;
+  position: relative;
+  
+  margin: 0;
 }
 .batera>h1{
   color: aliceblue;
