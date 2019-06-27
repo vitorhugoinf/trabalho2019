@@ -98,7 +98,7 @@ footer{
   border:0;
   background-color: #6b0100;
 }
-.gui{
+.gui2{
   background-image: url(imagens/triangulo.jpg);
   background-position: center top;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ footer{
 
 }
 
-.gui>h2{
+.gui2>h2{
   color: aliceblue;
     font-family: 'Shojumaru', cursive;
     /* text-align: justify; */
@@ -241,7 +241,7 @@ footer{
     top: 1em;
     
 }
-.topo{
+.topo2{
   background-image: url(imagens/body.jpg);
   background-position: center top;
   background-repeat: no-repeat;
