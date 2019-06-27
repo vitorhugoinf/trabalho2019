@@ -8,7 +8,7 @@ border:0;
   
 }
 body{
-
+    background-color: #080707de;
    text-align: justify;
 }
 h1{
@@ -16,18 +16,25 @@ font-family: 'Shojumaru', cursive;
    text-align:justify;
   margin-right: 100px;
   margin-left: 100px;
+  color: #fff;
 }
 h2{
 font-family: 'Shojumaru', cursive;
   text-align:justify;
   margin-right: 100px;
   margin-left: 100px;
+  color: #fff;
 }
 h3{
 font-family:cursive;
    text-align:justify;
   margin-right: 100px;
   margin-left: 100px;
+  color: #fff;
+
+}
+p{
+  color: #fff;
 
 }
 img{
@@ -251,4 +258,13 @@ footer{
   width: auto;
   top: -3em;
   position: relative;
+}
+.modal h1{
+  color: black;
+}
+.modal h2{
+  color: black;
+}
+.modal p{
+  color: black;
 }

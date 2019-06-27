@@ -3,23 +3,27 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="festivais.css">
+    <link rel="stylesheet" media="all" href="text.css">
     <link rel="icon" href="bass-guitar.png">
     <title>Festivais de Rock</title>
   </head>
   <body>
-
-    <header>
-      <h1>Festivais</h1>
-      <nav>
-        <ul>
-          <li>INICIO</li>
-          <li><a href="estiloRock.html">ESTILOS</a></li>
-          <li><a href="instrumento.html">INSTRUMENTOS</li>
-          <li><a href="festivais.html">FESTIVAIS</a></li>
-          <li> <a href="musica.html">TOP10</a></li>
-        </ul>
-      </nav>
-    </header>
+      <section class="topo3">
+          <header>
+            <h1>Festivais</h1>
+            <nav>
+              <ul>
+                <li><a href="introducao.html">INICIO</a></li></li>
+              <li><a href="estiloRock.html">ESTILOS</a></li>
+              <li><a href="instrumento.html">INSTRUMENTOS</li>
+              <li><a href="festivais.html">FSTIVAIS</a></li>
+              <li> <a href="musica.html">TOP10</a></li>
+              </ul>
+            </nav>
+            </header>
+          
+        </section>    
+    <main>
 
     <h1>Festivais de Rock </h1>
     <p>
@@ -56,9 +60,46 @@
     O festival nasceu em 1970, um dia depois da morte de Jimi Hendrix. Uma das principais características do festival é sua essência hippie.</p>
     <img id="esquerda" src="imagens/glast.png" alt="Glastonbury" title="Glastonbury" width=300 height=200 data-anime="left">
     <img id="direita" src="imagens/glasto2.png" alt="Glastonbury" title="Glastonbury" width=300 height=200 data-anime="right">
-
-    <script src="scroll.js">
-
-    </script>
+    </main>
+    <footer>
+	
+        <button id="meclica">Desenvolvedores<br> 2019</button>
+      
+          <main class="ultimoMargem0">
+          <div class="modal oculto">
+            <div>
+              <button class="fechar">x</button>
+              <article class="ultimoMargem0" id="legenda">
+          
+                <h1>Desenvolvedores</h1>
+                
+                <h2>Buruna</h2>
+                <img id="imgs-bruna" src="imagens-autores/bruna.jpg">
+                <p>Página dos Estilos e Janela Modal dos desenvolvedores</p>
+                <h2>Caeté</h2>
+                <img id="imgs-caete" src="imagens-autores/caete.jpeg">
+                <p>Página dos festivais mais famosos</p>
+            
+                <h2>Vitor</h2>
+                <img id="imgs-vitor" src="imagens-autores/vitor.jpeg">
+                <p>Página dos instrumentos e scroll</p>
+                
+                <h2>Wilson</h2>
+                <img id="imgs-wilson" src="imagens-autores/wilson.jpeg">
+                <p>Página das melhores músicas (top 10)</p>
+      
+                <h2>Paçoca</h2>
+                <img  id="img-pacoca" src="imagens-autores/pacoca.jpeg">
+                <p>Página sobre a história do rock</p>
+      
+              </article>
+            </div>
+          </div>
+        </main>
+      </footer>
+      
+    
+      <script src="text.js"></script>
+	<script src="scroll.js" charset="utf-8"></script>
   </body>
 </html>

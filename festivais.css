@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap');
-}
+
 #voltar {
   animation: live-streaming-pulse 0.7s infinite;
   text-transform: uppercase;
 }
-body,h1 {
+body,h1,article,section{
 margin: 0 ;
-margin-top: 0;
+border:0;
 }
 
 body {
-  background-color:#D3D3D3;
+  background-color:#080707de;
   text-align: justify;
 }
 
-header>h1 {
+header h1 {
     font-family: 'Shojumaru', cursive;
   text-align: center;
   color:white;
@@ -23,7 +23,7 @@ header>h1 {
 
 ul {
   text-align: center;
-  background-color:#696969;
+  
 }
 
 li {
@@ -43,7 +43,7 @@ li>a {
 }
 
 header {
-    background-color:#6b0100;
+    
 }
 
 p {
@@ -54,6 +54,7 @@ p {
   display: inline-block;
   margin-right: 100px;
   margin-left: 100px;
+  color: #fff;
 }
 
 h1 {
@@ -62,6 +63,7 @@ h1 {
  text-align:center;
   margin-right: 100px;
   margin-left: 100px;
+  color: #fff;
  }
 
  h2 {
@@ -71,11 +73,12 @@ h1 {
  text-align:center;
   margin-right: 100px;
   margin-left: 100px;
+  color: #fff;
  }
 
 h3{
 font-family:cursive;
-
+color: #fff;
  text-align:center;
   margin-right: 100px;
   margin-left: 100px;
@@ -114,3 +117,23 @@ img{
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
+.topo3{
+  background-image: url(imagens/fest.jpeg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 30em;
+      width: auto;
+      
+      position: relative;
+  }
+  .modal h1{
+    color: black;
+  }
+  .modal h2{
+    color: black;
+  }
+  .modal p{
+    color: black;
+  }

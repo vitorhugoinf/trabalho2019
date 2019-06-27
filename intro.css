@@ -1,17 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap');
-body,img{
-margin:0 auto;
+img{
+margin:0;
 border:0;
-
 }
+body,h1{
+  margin: 0 ;
+  margin-top: 0;
+  overflow-x:hidden; 
+  }
+  body{
+    background-color:#080707de;
+  }
 h1{
 font-family: 'Shojumaru', cursive;
+color: #fff;
+text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 h2{
 font-family: 'Shojumaru', cursive;
+color: #fff;
+text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+
 }
 h3{
 font-family:cursive;
+color: #fff;
+text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+
 
 }
 img{
@@ -21,6 +42,7 @@ img{
     border-radius: 20px;
       display: inline-block;
   text-align: center;
+  margin-left: 9em;
 
 }
 li{
@@ -51,9 +73,10 @@ header{
     background-color:#6b0100;
 }
 p{
-font-size: 17px;
-  display: inline-block;
-  text-align: center;
+  padding-left: 3em;
+    padding-right: 3em;
+  text-align: justify;
+  color: #fff;
 
 }
 footer{
@@ -72,6 +95,12 @@ main div {
   margin: 5px auto;
 }
 
-body{
-  background-color: #c0bdbd;
+.modal h1{
+  color: black;
+}
+.modal h2{
+  color: black;
+}
+.modal p{
+  color: black;
 }

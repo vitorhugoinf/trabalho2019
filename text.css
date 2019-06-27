@@ -174,4 +174,6 @@ footer{
   margin: 0 auto;
   border:0;
   background-color: #6b0100;
+  position: relative;
+    height: min-content;
 }

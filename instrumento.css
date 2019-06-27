@@ -5,7 +5,7 @@ margin-top: 0;
 overflow-x:hidden; 
 }
 body{
-  background-color:#D3D3D3;
+  background-color:#080707de;
 }
 header>h1 {
   font-family: 'Shojumaru', cursive;
@@ -60,15 +60,18 @@ font-family: 'Shojumaru', cursive;
  text-align: justify;
  padding-left: 3em;
   padding-right: 3em;
-  
+color: #fff;  
 }
 h2{
+  color: #fff;
 font-family:cursive;
  text-align: justify;
 padding-left: 3em;
  padding-right: 3em;
+ color: #fff;
 }
 p{
+  color: #fff;
   text-align: justify;
   padding-left: 3em;
   padding-right: 3em;
@@ -162,3 +165,12 @@ p{
     left: 4em;
 }
 
+.modal h1{
+  color: black;
+}
+.modal h2{
+  color: black;
+}
+.modal p{
+  color: black;
+}
