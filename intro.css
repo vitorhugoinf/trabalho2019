@@ -54,7 +54,9 @@ li{
 }
 ul{
   text-align: center;
-  background-color:#696969;
+  position: relative;
+    top: 4em;
+  
 
 }
 header>h1{
@@ -62,6 +64,8 @@ header>h1{
   text-align: center;
   color:white;
   font-size: 45px;
+  position: relative;
+  top: 1em;
 }
 a{
   text-decoration: none;
@@ -70,7 +74,7 @@ li>a{
     color: white;
 }
 header{
-    background-color:#6b0100;
+    
 }
 p{
   padding-left: 3em;
@@ -103,4 +107,15 @@ main div {
 }
 .modal p{
   color: black;
+}
+.intro6{
+  background-image: url(imagens/intro2.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 30em;
+  
+  margin: 0;
 }
