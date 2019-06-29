@@ -73,8 +73,13 @@ padding-left: 3em;
 p{
   color: #fff;
   text-align: justify;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 17px;
+  
+  margin-right: 100px;
+  margin-left: 100px;
+  
 }
 .master{
   position: relative;
